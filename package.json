@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "node src/fs/create.js",
-    "copy": "node src/fs/copy.js"
+    "copy": "node src/fs/copy.js",
+    "args": "node src/cli/args --propName value --prop2Name value2"
   },
   "repository": {
     "type": "git",
