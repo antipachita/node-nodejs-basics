@@ -7,7 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "create": "node src/fs/create.js",
     "copy": "node src/fs/copy.js",
-    "args": "node src/cli/args --propName value --prop2Name value2"
+    "delete": "node src/fs/delete.js",
+    "list": "node src/fs/list.js",
+    "read": "node src/fs/read.js",
+    "rename": "node src/fs/rename.js",
+    "env": "node src/cli/env.js",
+    "args": "node src/cli/args --propName value --prop2Name value2",
+    "cjstoesm": "node src/modules/cjsToEsm.mjs",
+    "calchush": "node src/hash/calcHash.js",
+    "read-stream": "node src/streams/read.js",
+    "write-stream": "node src/streams/write.js",
+    "transform": "node src/streams/transform.js",
+    "worker": "node src/wt/worker.js",
+    "main-worker": "node src/wt/main.js",
+    "compress": "node src/zip/compress.js",
+    "decompress": "node src/zip/decompress.js",
+    "cp": "node src/cp/cp.js"
   },
   "repository": {
     "type": "git",
