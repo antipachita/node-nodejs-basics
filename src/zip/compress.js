@@ -9,7 +9,7 @@ export const compress = async () => {
     const __dirname = dirname(__filename);
     const filePath = path.join(__dirname, 'files', 'fileToCompress.txt');
     const readStream = fs.createReadStream(filePath);
-    const writeStream = fs.createWriteStream(path.join(__dirname, 'files', 'fileToCompress.txt.gz'));
+    const writeStream = fs.createWriteStream(path.join(__dirname, 'files', 'archive.gz'));
     const gzip  = zlib.createGzip();
 
     

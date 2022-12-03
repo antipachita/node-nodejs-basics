@@ -7,7 +7,7 @@ import { pipeline} from 'stream';
 export const decompress = async () => {
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
-    const filePath = path.join(__dirname, 'files', 'fileToCompress.txt.gz');
+    const filePath = path.join(__dirname, 'files', 'archive.gz');
     const readStream = fs.createReadStream(filePath);
     const writeStream = fs.createWriteStream(path.join(__dirname, 'files', 'fileToUnzip.txt'));
     const gzip = zlib.createUnzip();
